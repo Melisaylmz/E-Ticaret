@@ -1,0 +1,62 @@
+﻿body {
+    background-color:grey;
+    font-family:"Trebuchet MS";
+}
+
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+
+.wrapper{
+    width:1400px;
+    height:1100px;
+    margin:0 auto;
+    background-color:white;
+}
+
+header{
+    float:left;
+    width:100%;
+    height:68px;
+    background-color:#1e1d1d;
+
+}
+    header .giris {
+        float: right;
+        padding-left: 10px;
+        width: 200px;
+        height: 68px;
+        line-height: 68px;
+    }
+a .btn btn-primary In{
+    margin-left:5px;
+}
+
+header .logo {
+    float: left;
+    margin-left: 4px;
+    width: 150px;
+    height: 68px;
+}
+
+header nav{
+    float:left;
+    margin-left:10px;
+    width:700px;
+    height:68px;
+    line-height:68px;
+    
+}
+
+    header nav ul{
+        list-style:none;
+
+    }
+    header nav ul li{
+        float:left;
+        margin-left:15px;
+        color:white;
+    }
